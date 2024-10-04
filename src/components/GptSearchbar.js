@@ -13,7 +13,7 @@ const GptSearchbar = () => {
           type="text"
           name=""
           placeholder={lang[langKey].gptSearchPlaceholder}
-          className="w-9/12 px-6 py-4 text-[20px] outline-none rounded-l-full"
+          className="w-8/12 mr-2 px-6 py-4 text-[20px] outline-none rounded-l-full"
         />
         <button className="w-3/12 py-4 px-4 bg-red-600 text-[20px] text-white font-semibold hover:opacity-90 rounded-r-full">
           {lang[langKey].search}
